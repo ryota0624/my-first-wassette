@@ -1,0 +1,14 @@
+{
+	"import": [
+		{
+			"path": "ryota0624/weather/ffi",
+			"alias": "ffi"
+		},
+		"ryota0624/weather/interface/wasi/http/types",
+		"ryota0624/weather/interface/wasi/http/outgoingHandler",
+		"ryota0624/weather/interface/wasi/io/poll",
+		"ryota0624/weather/interface/wasi/io/streams",
+		"ryota0624/weather/interface/wasi/io/error",
+		"moonbitlang/x/encoding"
+	]
+}

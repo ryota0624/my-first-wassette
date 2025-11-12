@@ -1,0 +1,6 @@
+package ryota0624:weather@0.1.0;
+
+world w {
+  import wasi:http/outgoing-handler@0.2.7;
+  export get-weather: func(city: string) -> result<string, string>;
+}

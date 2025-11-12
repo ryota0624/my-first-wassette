@@ -1,0 +1,7 @@
+{
+  "name": "ryota0624/weather",
+  "deps": {
+    "moonbitlang/x": "0.4.36"
+  },
+  "preferred-target": "wasm"
+}
