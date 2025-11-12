@@ -42,3 +42,10 @@ pub fn wasmExportGetWeatherPostReturn(p0 : Int) -> Unit {
 
 }
 
+pub fn wasmExportSumNumber(p0 : Int, p1 : Int) -> Int {
+
+      let (result) : (Byte) = @w.sum_number((p0).to_byte(), (p1).to_byte());
+      return (result).to_int()
+
+}
+

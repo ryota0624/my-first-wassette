@@ -49,3 +49,7 @@ fn get_weather_(city : String) -> String raise {
   }
   builder.to_string()
 }
+
+pub fn sum_number(a : Byte, b: Byte) -> Byte {
+      return a + b
+}

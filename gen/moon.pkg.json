@@ -4,7 +4,8 @@
                   "exports": [
                         "cabi_realloc:cabi_realloc",
                         "wasmExportGetWeather:get-weather",
-                        "wasmExportGetWeatherPostReturn:cabi_post_get-weather"
+                        "wasmExportGetWeatherPostReturn:cabi_post_get-weather",
+                        "wasmExportSumNumber:sum-number"
                   ],
                   "export-memory-name": "memory",
                   "heap-start-address": 16
